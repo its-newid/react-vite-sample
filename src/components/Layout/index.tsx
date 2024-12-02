@@ -39,8 +39,8 @@ const SampleCmsNav = styled.div`
 
 const InnerContainer = styled.div`
     position: relative;
-    width: 100%;
-    height: 100dvh;
+    width: calc(100% - 200px);
+    height: 100%;
     overflow: hidden;
     display: flex;
     flex-direction: column;

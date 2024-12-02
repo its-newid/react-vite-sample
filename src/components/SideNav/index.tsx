@@ -16,9 +16,9 @@ const SideNav = () => {
 export default SideNav;
 
 const Container = styled.div`
-    min-width: 200px;
-    max-width: 200px;
-    height: 100vh;
+    position: relative;
+    width: 200px;
+    height: 100%;
     background-color: ${theme.colors.main};
     display: flex;
     flex-direction: column;
